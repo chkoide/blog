@@ -6,19 +6,19 @@
   
   <title>使用状況と分析情報 - 顧客 ID データの分析 | Japan Azure Identity Support Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="こんにちは、Azure Identity サポートチームの 張替 です。本記事は、2024 年 3 月 18 日に米国の Azure Active Directory Identity Blog で公開された Cross-tenant access settings - Notes from the field を意訳したものになります。ご不明点等ございましたらサポート チームまでお問い合わせくだ">
+  <meta name="description" content="こんにちは、Azure Identity サポートチームの 張替 です。本記事は、2024 年 6 月 25 日に米国の Azure Active Directory Identity Blog で公開された User insights: Analyze customer identity data を意訳したものになります。ご不明点等ございましたらサポート チームまでお問い合わせください。  本">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用状況と分析情報 - 顧客 ID データの分析">
 <meta property="og:url" content="https://jpazureid.github.io/blog/azure-active-directory/user-insights-analyze-customer-identity-data/index.html">
 <meta property="og:site_name" content="Japan Azure Identity Support Blog">
-<meta property="og:description" content="こんにちは、Azure Identity サポートチームの 張替 です。本記事は、2024 年 3 月 18 日に米国の Azure Active Directory Identity Blog で公開された Cross-tenant access settings - Notes from the field を意訳したものになります。ご不明点等ございましたらサポート チームまでお問い合わせくだ">
+<meta property="og:description" content="こんにちは、Azure Identity サポートチームの 張替 です。本記事は、2024 年 6 月 25 日に米国の Azure Active Directory Identity Blog で公開された User insights: Analyze customer identity data を意訳したものになります。ご不明点等ございましたらサポート チームまでお問い合わせください。  本">
 <meta property="og:locale" content="ja_JP">
 <meta property="og:image" content="https://jpazureid.github.io/blog/azure-active-directory/user-insights-analyze-customer-identity-data/user-insights-analyze-customer-identity-data1.png">
 <meta property="og:image" content="https://jpazureid.github.io/blog/azure-active-directory/user-insights-analyze-customer-identity-data/user-insights-analyze-customer-identity-data2.png">
 <meta property="og:image" content="https://jpazureid.github.io/blog/azure-active-directory/user-insights-analyze-customer-identity-data/user-insights-analyze-customer-identity-data3.png">
 <meta property="og:image" content="https://jpazureid.github.io/blog/azure-active-directory/user-insights-analyze-customer-identity-data/user-insights-analyze-customer-identity-data4.png">
 <meta property="article:published_time" content="2024-08-05T00:00:00.000Z">
-<meta property="article:modified_time" content="2024-08-06T05:44:33.513Z">
+<meta property="article:modified_time" content="2024-08-06T05:50:56.002Z">
 <meta property="article:author" content="Azure Identity Support Japan">
 <meta property="article:tag" content="Azure AD">
 <meta property="article:tag" content="US Identity Blog">
@@ -160,12 +160,12 @@
         
         <a href="https://github.com/jpazureid/blog/issues/new?title=&body=%0A%0A---%0A%0A%23%23%23%23+Document+Details%0A%0A%E2%9A%A0+*Do+not+edit+this+section.%0A%0A*+ID%3A+0911e0c4-495a-54d0-a164-c43d3946b633%0A*+%E5%AF%BE%E8%B1%A1%E8%A8%98%E4%BA%8B%3A+%5B%E4%BD%BF%E7%94%A8%E7%8A%B6%E6%B3%81%E3%81%A8%E5%88%86%E6%9E%90%E6%83%85%E5%A0%B1+-+%E9%A1%A7%E5%AE%A2+ID+%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E5%88%86%E6%9E%90%5D%28https%3A%2F%2Fjpazureid.github.io%2Fblog%2Fazure-active-directory%2Fuser-insights-analyze-customer-identity-data%2F%29%0A*+Content+Source%3A+%5Barticles%2Fazure-active-directory%2Fuser-insights-analyze-customer-identity-data.md%5D%28https%3A%2F%2Fgithub.com%2Fjpazureid%2Fblog%2Fblob%2Fmain%2Farticles%2Fazure-active-directory%2Fuser-insights-analyze-customer-identity-data.md%29%0A*+Author%3A+" class="article-github-issue-link" target="_blank" rel="noopener noreferrer">feedback</a>
         
-        <a data-url="https://jpazureid.github.io/blog/azure-active-directory/user-insights-analyze-customer-identity-data/" data-id="clzhzx26900lg0nqk8c48ena6" class="article-share-link">共有</a>
+        <a data-url="https://jpazureid.github.io/blog/azure-active-directory/user-insights-analyze-customer-identity-data/" data-id="clzi0598000lg0opbbk7a183q" class="article-share-link">共有</a>
       </div>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>こんにちは、Azure Identity サポートチームの 張替 です。<br>本記事は、2024 年 3 月 18 日に米国の Azure Active Directory Identity Blog で公開された <a target="_blank" rel="noopener" href="https://techcommunity.microsoft.com/t5/microsoft-entra-blog/cross-tenant-access-settings-notes-from-the-field/ba-p/4081841">Cross-tenant access settings - Notes from the field</a> を意訳したものになります。ご不明点等ございましたらサポート チームまでお問い合わせください。</p>
+        <p>こんにちは、Azure Identity サポートチームの 張替 です。<br>本記事は、2024 年 6 月 25 日に米国の Azure Active Directory Identity Blog で公開された <a target="_blank" rel="noopener" href="https://techcommunity.microsoft.com/t5/microsoft-entra-blog/user-insights-analyze-customer-identity-data/ba-p/3827373">User insights: Analyze customer identity data</a> を意訳したものになります。ご不明点等ございましたらサポート チームまでお問い合わせください。</p>
 <hr>
 <p>本日、Microsoft Entra External ID における [使用状況と分析情報] の <strong>一般提供</strong> を発表できることを嬉しく思います。</p>
 <p>2023 年 10 月にパブリック プレビューが開始された [使用状況と分析情報] は、管理者や開発者が顧客の行動、好み、課題について、より深い洞察を得ることができる強力なツールです。このツールは、月間アクティブユーザー数 (MAU) や日次のアクティブ ユーザー数 (DAU)、新規追加ユーザー数、リクエスト数、認証数、多要素認証 (MFA) の種類別利用状況、MFA の成功率対失敗率などの主要な指標を提供します。また、時間の範囲、オペレーティング システム、国、およびアプリケーション ID によってデータをフィルタリングおよびセグメント化することもできます。[使用状況と分析情報] では、以下のことが可能です:</p>
