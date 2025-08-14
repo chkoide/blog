@@ -37,21 +37,14 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/why-are-my-users-not-prompted-for-mfa-as-expected/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/whats-new-in-microsoft-entra-november-2024/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/whats-new-in-microsoft-entra%E2%80%93june2024/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/why-are-my-users-not-prompted-for-mfa-as-expected/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -66,6 +59,13 @@
   
   <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/whats-new-in-microsoft-entra-march-2025/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/whats-new-in-microsoft-entra-november-2024/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -135,14 +135,14 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/users-can-register-applications/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/visualize-entra-sign-in-logs-using-an-interactive-map/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/visualize-entra-sign-in-logs-using-an-interactive-map/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/users-can-register-applications/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -157,6 +157,20 @@
   
   <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/use-cloud-groups-in-on-premises-active-directory-with-group/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/upgrade-your-tenant-restrictions-to-v2/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/update-B2B-user-address/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -184,20 +198,6 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/upgrade-your-tenant-restrictions-to-v2/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/update-B2B-user-address/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/upcoming-changes-to-managing-mfa-methods-for-hybrid-customers/</loc>
     
     <lastmod>2025-08-14</lastmod>
@@ -205,14 +205,14 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/understand-the-state-of-devices-across-your-organization/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/understanding-and-mitigating-golden-saml-attacks/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/understanding-and-mitigating-golden-saml-attacks/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/understand-the-state-of-devices-across-your-organization/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -408,6 +408,13 @@
   </url>
   
   <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/simplify-your-identity-provisioning-with-these-new-azure-ad/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/service-principal-required-for-microsoft-entra-id/</loc>
     
     <lastmod>2025-08-14</lastmod>
@@ -416,13 +423,6 @@
   
   <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/simplify-frontline-workers-sign-in-experience-with-qr-code-authentication/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/simplify-your-identity-provisioning-with-these-new-azure-ad/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -443,13 +443,6 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/secure-collaboration-with-AAD-guest-access-reviews/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/securing-access-to-any-resource,-anywhere/</loc>
     
     <lastmod>2025-08-14</lastmod>
@@ -457,7 +450,7 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/secure-access-to-amazon-managed-grafana-with-azure-ad/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/secure-collaboration-with-AAD-guest-access-reviews/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -465,6 +458,13 @@
   
   <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/secure-authentication-method-provisioning-with-temporary-access/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/secure-access-to-amazon-managed-grafana-with-azure-ad/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -534,14 +534,14 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/registration-campaign-qanda/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/remote-workforce-with-zero-trust/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/remote-workforce-with-zero-trust/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/registration-campaign-qanda/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -709,14 +709,14 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/password-sprey-attack/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/output-directory-roll-members/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/output-directory-roll-members/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/password-sprey-attack/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -744,14 +744,14 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/non-destructive-pin-reset/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/oauth2-application-resource-and-api-permissions/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/oauth2-application-resource-and-api-permissions/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/non-destructive-pin-reset/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -849,20 +849,6 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/new-app-health-recommendations-in-microsoft-entra-workload-identities/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/nesting-group/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/new-admin-center-unifies-azure-ad-with-other-identity-and-access-product/</loc>
     
     <lastmod>2025-08-14</lastmod>
@@ -870,7 +856,7 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/moving-towards-real-time-policy-and-security-enforcement/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/new-app-health-recommendations-in-microsoft-entra-workload-identities/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -885,6 +871,20 @@
   
   <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/mto-ga/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/nesting-group/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/moving-towards-real-time-policy-and-security-enforcement/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -1164,14 +1164,14 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/mfa-reset-2022/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/mfa-reset-2025/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/mfa-reset-2025/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/mfa-reset-2022/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -1199,14 +1199,14 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/mc1028312-info/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/managing-governing-and-securing-identities-for-apps-and-services/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/managing-governing-and-securing-identities-for-apps-and-services/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/mc1028312-info/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -1374,14 +1374,14 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/introducing-azuread-custom-security-attributes/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/introducing-azure-ad-access-reviews-for-service-principals/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/introducing-azure-ad-access-reviews-for-service-principals/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/introducing-azuread-custom-security-attributes/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -1528,14 +1528,14 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/how-to-get-sign-in-logs/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/how-to-update-samlsigningcertificate/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/how-to-update-samlsigningcertificate/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/how-to-get-sign-in-logs/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -1619,14 +1619,14 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/hashicorp-s-azure-ad-provider-migrates-to-microsoft-graph/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/have-you-updated-your-applications-to-use-the-microsoft/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/have-you-updated-your-applications-to-use-the-microsoft/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/hashicorp-s-azure-ad-provider-migrates-to-microsoft-graph/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -1696,13 +1696,6 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/ga-system-preferred-multifactor-authentication/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/ga-is-locked-out/</loc>
     
     <lastmod>2025-08-14</lastmod>
@@ -1710,14 +1703,14 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/fq-device-based-ca-for-remote-work/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/ga-system-preferred-multifactor-authentication/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/face-check-is-now-generally-available/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/fq-device-based-ca-for-remote-work/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -1732,6 +1725,13 @@
   
   <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/external-identities-b2c-supports-authenticator-apps-and-new-data/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/face-check-is-now-generally-available/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -1808,13 +1808,6 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/enterprise-sso-ga/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/ensure-compliance-using-separation-of-duties-checks-in-access-jp/</loc>
     
     <lastmod>2025-08-14</lastmod>
@@ -1823,6 +1816,13 @@
   
   <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/enterprise-applications-app-registrations/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/enterprise-sso-ga/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -1843,13 +1843,6 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/end-of-support-for-azure-ad-graph-permission-sign-up-through/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/end-user-passwordless-utopia/</loc>
     
     <lastmod>2025-08-14</lastmod>
@@ -1858,6 +1851,13 @@
   
   <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/enforce-least-privilege-for-entra-iD-company-branding-with-the-new-organizational-branding-role/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/end-of-support-for-azure-ad-graph-permission-sign-up-through/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -1927,14 +1927,14 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/customize-authentication-experiences-and-url-domains-for-external-apps/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/customize-your-authentication-flows-with-custom-claims-providers/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/customize-your-authentication-flows-with-custom-claims-providers/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/customize-authentication-experiences-and-url-domains-for-external-apps/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -2109,13 +2109,6 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/check-out-new-azure-ad-certificate-based-authentication-cba/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/cloudknox-permissions-management-is-now-in-public-preview/</loc>
     
     <lastmod>2025-08-14</lastmod>
@@ -2124,6 +2117,13 @@
   
   <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/changed_aad_ip_range/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/check-out-new-azure-ad-certificate-based-authentication-cba/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -2165,14 +2165,14 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/ca-authentication-strength-ga/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/ca-filter-for-apps/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/ca-filter-for-apps/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/ca-authentication-strength-ga/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -2256,13 +2256,6 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/azuread-module-retirement2/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/azuread-module-retirement3/</loc>
     
     <lastmod>2025-08-14</lastmod>
@@ -2278,6 +2271,13 @@
   
   <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/azuread-module-retirement1/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/azuread-module-retirement2/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -2368,6 +2368,20 @@
   </url>
   
   <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/azure-ad-join-vs-azure-ad-device-registration/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/azure-ad-endpoints/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/azure-ad-get-lastSignInDateTime/</loc>
     
     <lastmod>2025-08-14</lastmod>
@@ -2383,20 +2397,6 @@
   
   <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/azure-ad-graph-api-retirement/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/azure-ad-join-vs-azure-ad-device-registration/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/azure-ad-endpoints/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -2536,14 +2536,14 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/announcing-improved-identity-protection-signal-quality-and/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/announcing-microsoft-entra-agent-id-secure-and-manage-your-ai-agents/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/announcing-microsoft-entra-agent-id-secure-and-manage-your-ai-agents/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/announcing-improved-identity-protection-signal-quality-and/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -2697,6 +2697,13 @@
   </url>
   
   <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/aadsts75011/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/about-baseline-policy-require-mfa-for-admins/</loc>
     
     <lastmod>2025-08-14</lastmod>
@@ -2711,13 +2718,6 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/aadsts75011/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/aadj-link-is-not-displayed/</loc>
     
     <lastmod>2025-08-14</lastmod>
@@ -2725,14 +2725,14 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/aad-changes-impacting-azurecli-azureps/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/aad-token-lifetime/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/aad-token-lifetime/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/aad-changes-impacting-azurecli-azureps/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -2747,6 +2747,13 @@
   
   <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/WorkPlaceJoin/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/User-at-risk-detected/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -2795,13 +2802,6 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/User-at-risk-detected/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/MFA_configuration_scenarios/</loc>
     
     <lastmod>2025-08-14</lastmod>
@@ -2816,14 +2816,14 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/Introducing-More-Granular-Certificate-Based-Authentication-Configuration/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/Important-Update-to-deviceRegistrationPolicy-Resource-Type-for-MS-Graph-Beta-API-Version/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/Important-Update-to-deviceRegistrationPolicy-Resource-Type-for-MS-Graph-Beta-API-Version/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/Introducing-More-Granular-Certificate-Based-Authentication-Configuration/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -2879,13 +2879,6 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory/20210318-rca-azure-ad/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/2023-state-of-cloud-permissions-risks-report-now-published/</loc>
     
     <lastmod>2025-08-14</lastmod>
@@ -2901,6 +2894,13 @@
   
   <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory/20200928-rca-azure-ad/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory/20210318-rca-azure-ad/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -2970,13 +2970,6 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory-connect/dirsync-adsync-20171231/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory-connect/error-code-8344/</loc>
     
     <lastmod>2025-08-14</lastmod>
@@ -2984,7 +2977,7 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory-connect/cantphsback-aadc/</loc>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory-connect/dirsync-adsync-20171231/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -2999,6 +2992,13 @@
   
   <url>
     <loc>https://jpazureid.github.io/blog/azure-active-directory-connect/directory-synchronization-accounts/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory-connect/cantphsback-aadc/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -3103,20 +3103,6 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/azure-active-directory-connect/aad-notification/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jpazureid.github.io/blog/active-directory-federation-service/update-token-certificate/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jpazureid.github.io/blog/active-directory-federation-service/update-ssl-server-certificate-2016+/</loc>
     
     <lastmod>2025-08-14</lastmod>
@@ -3132,6 +3118,20 @@
   
   <url>
     <loc>https://jpazureid.github.io/blog/active-directory-federation-service/update-ssl-server-certificate/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/azure-active-directory-connect/aad-notification/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/active-directory-federation-service/update-token-certificate/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -3159,6 +3159,13 @@
   </url>
   
   <url>
+    <loc>https://jpazureid.github.io/blog/active-directory-federation-service/kmsi-not-shown-wia/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jpazureid.github.io/blog/active-directory-federation-service/case-of-pdc/</loc>
     
     <lastmod>2025-08-14</lastmod>
@@ -3174,13 +3181,6 @@
   
   <url>
     <loc>https://jpazureid.github.io/blog/active-directory-federation-service/congestion_avoidance_algorithm/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jpazureid.github.io/blog/active-directory-federation-service/kmsi-not-shown-wia/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
@@ -3222,20 +3222,6 @@
   </url>
   
   <url>
-    <loc>https://jpazureid.github.io/blog/active-directory-federation-service/about-extranet-lockout/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jpazureid.github.io/blog/active-directory-federation-service/ad-fs-auto-rollover/</loc>
-    
-    <lastmod>2025-08-14</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jpazureid.github.io/blog/active-directory-federation-service/adfs-AADSTS50107/</loc>
     
     <lastmod>2025-08-14</lastmod>
@@ -3244,6 +3230,20 @@
   
   <url>
     <loc>https://jpazureid.github.io/blog/active-directory-federation-service/adfs-cba-ts/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/active-directory-federation-service/about-extranet-lockout/</loc>
+    
+    <lastmod>2025-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jpazureid.github.io/blog/active-directory-federation-service/ad-fs-auto-rollover/</loc>
     
     <lastmod>2025-08-14</lastmod>
     
