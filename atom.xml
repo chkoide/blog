@@ -10,14 +10,14 @@
   <rights>All rights reserved 2026, Azure Identity Support Japan</rights>
   <subtitle>日本マイクロソフトの Azure Active Directory と AD FS に関するサポート情報のブログです。</subtitle>
   <title>Japan Azure Identity Support Blog</title>
-  <updated>2026-11-09T14:39:49.063Z</updated>
+  <updated>2026-11-19T01:20:19.302Z</updated>
   <entry>
     <author>
       <name>Azure Identity Support Japan</name>
     </author>
     <category term="Entra ID" scheme="https://jpazureid.github.io/blog/tags/Entra-ID/"/>
     <content>
-      <![CDATA[<p>こんにちは、Microsoft Entra ID サポート チームの小出です。</p><p>今回は、弊社サポートにお問い合わせを起票いただく前にご利用いただける、公開情報やブログ情報などを紹介いたします。</p><h2 id="はじめに"><a href="#はじめに" class="headerlink" title="はじめに"></a>はじめに</h2><p>いつも多くのお問い合わせを弊社サポートにお寄せいただき誠にありがとうございます。</p><p>サポートをご利用いただくなかで、下記のような経験をお持ちのお客様もいらっしゃるかと思います。</p><ul><li>お問い合わせを起票し、回答を待っている間に AI に聞いてみたら自己解決できた</li><li>サポートからの回答を確認したら、サポート ブログで既に公開されている情報だった</li><li>発生したエラーについて検索してみたところ、同じような事象と対処策についての情報が出てきたが参考にしてよいのかわからない</li><li>似たような事象がコミュニティ サイトにあったが、英語なのでわかりにくい</li></ul><p>弊社サポートにおきましても、可能な限り迅速にお客様への連絡や回答をご案内できるよう努めておりますが、お客様がよりスムーズに問題を解決できるよう、お問い合わせを起票いただく前にお客様側にて利用いただける情報についておまとめいたしました。</p><p>また、Microsoft 365 Copilot をはじめ、AI を活用いただいているお客様や、今後利用したいと考えているお客様向けに、AI エージェントでの活用方法についても後半でご案内しております。<br>下記でご紹介する公開情報やブログなどを “エージェント” のナレッジとして活用いただくことで、エージェントへの質問を通じて一次回答や情報採取の手順を確認でき、お客様ご自身でスムーズに問題や疑問点を解決いただけます。</p><p>具体的なエージェントのプロンプトにつきましては、お客様環境によって設定や指示が異なる点もございますため本記事では割愛いたしますが、応答のソースとなるサイトの指定方法などを後半でご案内しておりますので、生成 AI を活用いただくうえでも参考になりましたら幸いです。</p><p>なお、本記事では Microsoft Entra ID に限らず、セキュリティ関連製品についても記載しております。Microsoft Intune や Microsoft Defender をはじめとするセキュリティ製品をご利用のお客様も、ぜひご利用ください。</p><span id="more"></span><h2 id="目次"><a href="#目次" class="headerlink" title="目次"></a>目次</h2><ol><li><p><a href="#idx1">各製品ごとの推奨公開情報の紹介</a></p><ul><li><a href="#idx1-1">Microsoft Entra ID</a></li><li><a href="#idx1-2">Microsoft Intune</a></li><li><a href="#idx1-3">Microsoft Configuration Manager(MCM&#x2F;旧SCCM)</a></li><li><a href="#idx1-4">Security (Microsoft Defender &#x2F; Microsoft Sentinel &#x2F; Security platform)</a></li><li><a href="#idx1-5">Compliance (Microsoft Purview)</a></li></ul></li><li><p><a href="#idx2">エージェントでの活用方法について</a></p><ul><li><a href="#idx2-1">エージェントにおけるナレッジの指定方法について</a></li><li><a href="#idx2-2">本ブログにおけるエージェント構築時のおすすめ参照順について</a></li><li><a href="#idx2-3">AI を活用いただく際のご注意</a></li></ul></li></ol><h2 id="idx1">各製品ごとの推奨公開情報の紹介</h2><p>弊社におけるセキュリティ関連製品には、主に 5 種類のカテゴリがございます。トラブルシューティングや製品の情報を確認したいときにご利用いただける推奨情報を、製品ごとにご案内します。</p><p>公開情報 (Microsoft Learn など) は製品の公式な情報です。日本語の技術情報ブログは、公開情報を補足する内容 (よくあるお問い合わせや、公開情報だけでは分かりにくい内容など) を、サポート チームが日本語でご案内するものです。ブログの内容は公開時点の情報となり、最新の公開情報と異なる場合がありますので、最新情報については公開情報もあわせてご確認ください。</p><h3 id="idx1-1">Microsoft Entra ID</h3><p>Microsoft Entra ID は、ユーザー、デバイス、アプリ、リソースに対する認証、ポリシーの適用、保護を提供するクラウドベースの ID およびアクセス管理サービスです。動作の詳細や手順などをご案内しているドキュメントのほか、トラブル シューティング用のガイドもございます。公開情報で網羅できていないトラブル シューティングやよくある質問は、日本語の技術情報としてブログでもご案内しておりますので、日本語の技術情報ブログも公開情報を補足する情報としてご活用いただけます。</p><table><thead><tr><th>サイト</th><th>用途</th><th>日本語利用可否</th></tr></thead><tbody><tr><td><a href="https://learn.microsoft.com/ja-jp/entra/identity/">Microsoft Entra ID Documentation</a></td><td>製品ドキュメント、設計情報</td><td>○</td></tr><tr><td><a href="https://learn.microsoft.com/ja-jp/troubleshoot/entra/welcome-entra">Troubleshoot Microsoft Entra Issues</a></td><td>トラブルシューティング</td><td>○</td></tr><tr><td><a href="https://learn.microsoft.com/ja-jp/entra/fundamentals/whats-new">Microsoft Entra Releases &amp; Announcements</a></td><td>新機能、仕様変更情報</td><td>○</td></tr><tr><td><a href="https://learn.microsoft.com/ja-jp/entra/fundamentals/whats-new-archive">Release Archive</a></td><td>過去のリリース履歴</td><td>○</td></tr><tr><td><a href="https://jpazureid.github.io/blog/">Japan Azure Identity Support Blog</a></td><td>日本語の技術情報、サポート事例</td><td>○（日本語のみ）</td></tr><tr><td><a href="https://www.microsoft.com/en-us/security/blog/">Microsoft Security Blog</a></td><td>セキュリティ関連アップデート</td><td>×（英語のみ）</td></tr></tbody></table><h3 id="idx1-2">Microsoft Intune</h3><p>Microsoft Intune は、組織で利用するデバイスやアプリケーションをクラウド上で管理し、組織のデータ保護やセキュリティ対策を支援する製品です。機能の詳細や設定手順、トラブル シューティングをご案内する公開ドキュメントのほか、よくある質問や公開情報を補足する内容を日本語の技術情報ブログでもご案内しておりますので、併せてご利用いただけます。</p><table><thead><tr><th>サイト</th><th>用途</th><th>日本語利用可否</th></tr></thead><tbody><tr><td><a href="https://learn.microsoft.com/ja-jp/intune/">Microsoft Intune Documentation</a></td><td>Intune の新機能、導入方法、トラブル シューティング全般</td><td>○</td></tr><tr><td><a href="https://techcommunity.microsoft.com/category/microsoftintune/blog/microsoftintuneblog">Microsoft Intune Blog | Microsoft Community Hub</a></td><td>最新のアップデート、新機能、既知の問題などの Intune ブログ</td><td>×（英語のみ）</td></tr><tr><td><a href="https://jpintune.github.io/blog/">Japan Microsoft Intune Support Team Blog</a></td><td>日本のお客様向けの技術情報やサポート事例</td><td>○（日本語のみ）</td></tr></tbody></table><h3 id="idx1-3">Microsoft Configuration Manager (MCM / 旧 SCCM)</h3><p>Microsoft Configuration Manager (旧称 SCCM) は、組織内のデバイスやアプリケーションを管理するための製品です。アプリケーションや更新プログラムの展開、デバイスの構成管理など、企業内のさまざまなデバイスを効率よく管理・運用するための幅広い機能を提供しています。</p><p>各機能の動作やトラブル シューティングについては Microsoft Learn の公開ドキュメントをご利用いただけます。また、よくあるお問い合わせや公開情報を補足する内容を日本語の技術情報ブログでもご案内しておりますので、併せてご利用いただけます。</p><table><thead><tr><th>サイト</th><th>用途</th><th>日本語利用可否</th></tr></thead><tbody><tr><td><a href="https://learn.microsoft.com/ja-jp/troubleshoot/mem/configmgr/welcome-configuration-manager">Configuration Manager Troubleshooting (Microsoft Learn)</a></td><td>トラブルシューティング、障害対応</td><td>○</td></tr><tr><td><a href="https://jpmem.github.io/blog/categories/Configuration-Manager/">Japan MEM Support Blog</a></td><td>日本語の技術情報、サポート事例</td><td>○（日本語のみ）</td></tr></tbody></table><h3 id="idx1-4">Security (Microsoft Defender / Microsoft Sentinel / Security platform)</h3><p><strong>Defender &#x2F; Security Platform</strong></p><p>Microsoft Defender は、エンドポイント、ID、電子メール、クラウドアプリケーションなどに対する脅威の検出、防止、調査、対応を担う機能です。<br>動作の詳細や手順などをご案内しておりますドキュメントのほか、トラブル シューティング用のガイドもございます。公開情報で網羅できていないトラブル シューティングやよくある質問を、日本語の技術情報としてブログでもご案内いたしておりますので、日本語の技術情報ブログも、公開情報と同様にご利用いただけます。<br>さまざまな領域から得られるセキュリティ情報を集約し、脅威の検出、調査、対応を行うための基盤として Security Platform のひとつと呼ばれる事もあります。<br>Microsoft Defender ポータルを中心とした各機能の設定や連携、インシデントやアラートの管理などについて、公開ドキュメントや技術情報をご案内しています。</p><p><strong>Microsoft Sentinel</strong></p><p>Microsoft Sentinel は、さまざまな製品やサービスからセキュリティに関するログやデータを収集し、脅威の検出、調査、対応を行うためのサービスです。<br>データの収集や分析、インシデントの調査、分析ルールや自動化など、各機能の利用方法やトラブルシューティングについて公開ドキュメントをご用意しています。また、公開情報だけでは分かりにくい内容や、よくあるお問い合わせについては、日本語の技術情報ブログでもご案内しています。</p><table><thead><tr><th>サイト</th><th>用途</th><th>日本語利用可否</th></tr></thead><tbody><tr><td><a href="https://jp-sec.github.io/blog/">Security 日本語 Blog</a></td><td>日本語の技術情報、サポート情報</td><td>○（日本語のみ）</td></tr><tr><td><a href="https://techcommunity.microsoft.com/">Microsoft Community Hub</a></td><td>技術コミュニティ、ナレッジ共有</td><td>×（英語のみ）</td></tr><tr><td><a href="https://techcommunity.microsoft.com/category/microsoft-security-product/blog/microsoft-security-blog">Microsoft Security Community Blog</a></td><td>Security 製品全般の技術情報</td><td>×（英語のみ）</td></tr><tr><td><a href="https://techcommunity.microsoft.com/category/microsoft-sentinel/blog/microsoftsentinelblog">Microsoft Sentinel Blog</a></td><td>Sentinel 関連情報</td><td>×（英語のみ）</td></tr><tr><td><a href="https://www.microsoft.com/en-us/msrc">Microsoft Security Response Center (MSRC)</a></td><td>セキュリティ情報、アドバイザリ</td><td>×（英語のみ）</td></tr><tr><td><a href="https://msrc.microsoft.com/update-guide/">Security Update Guide</a></td><td>CVE、脆弱性情報</td><td>×（英語のみ）</td></tr><tr><td><a href="https://www.microsoft.com/en-us/wdsi/">Antimalware and cybersecurity portal - Microsoft Security Intelligence</a></td><td>脅威インテリジェンス</td><td>×（英語のみ）</td></tr></tbody></table><h3 id="idx1-5">Compliance (Microsoft Purview)</h3><p>Microsoft Purview は、組織内のデータを適切に管理・保護し、情報漏えいの防止やコンプライアンス対応を支援する製品です。機能の詳細や設定手順、トラブル シューティングをご案内する公開ドキュメントのほか、新機能や製品の更新情報、運用に役立つ情報を公式ブログでもご案内しておりますので、併せてご利用いただけます。</p><table><thead><tr><th>サイト</th><th>用途</th><th>日本語利用可否</th></tr></thead><tbody><tr><td><a href="https://learn.microsoft.com/ja-jp/purview/whats-new">Microsoft Purview の最新情報</a></td><td>Purview各機能の新機能・変更点の公式まとめ</td><td>○</td></tr><tr><td><a href="https://techcommunity.microsoft.com/category/microsoft-security/blog/microsoft-purview-blog">Microsoft Purview Blog</a></td><td>Purview全般の新機能・運用ノウハウを発信する公式ブログ</td><td>×（英語のみ）</td></tr></tbody></table><h2 id="idx2">エージェントでの活用方法について</h2><p>お問い合わせを起票いただく前にお客様側でご利用いただける公開情報やブログなどを上記でご案内しましたが、ひとつずつ確認いただくには時間も手間もかかり、ほしい情報を見つけ出すのが難しいこともあるかと思います。</p><p>Copilot のチャット機能などをすでに利用いただいているお客様も多いかと思いますが、たとえばエージェントを活用すると、指定したナレッジをもとに応答が生成されるため、効率よく情報にたどり着くことを期待できます。</p><h3 id="idx2-1">エージェントにおけるナレッジの指定方法について</h3><p>最も簡単にエージェントを作成できる方法は、Microsoft 365 Copilot 内にあるエージェント ビルダーを利用する方法です (利用には Microsoft 365 Copilot のライセンスが必要です)。</p><p>エージェントにどのようにふるまってほしいかという「指示」の具体的な書き方がわからなくても、どのようなエージェントを作成したいかをチャットに入力すれば、指示も自動的に生成してくれます。また、プレビューの機能もあり、どのように動作するかを事前に試すこともできます。<a href="https://learn.microsoft.com/ja-jp/microsoft-365/copilot/extensibility/agent-builder-build-agents">こちらの公開情報</a>から詳細をご確認いただけます。</p><p>エージェントを作成するときには、エージェントがどのような情報を探して応答するかの「指示」のほかに、どこから情報を取得するかを指定する「ナレッジ」の項目があります。この項目で、応答のソースとしたい Web サイトやファイルを指定することで、指定されたナレッジから情報を取得できます。</p><p>具体的には、Web サイトを指定したい場合、Web 検索の項目をオンにしたうえで URL を指定します。<br>下記の通り、指定できる Web サイトの URL には次の制限があります。</p><ul><li>追加できる URL は <strong>最大 4 つ</strong> まで</li><li>URL のレベルは <strong>2 階層まで</strong> (例: <code>https://learn.microsoft.com/ja-jp</code> や <code>https://jpazureid.github.io/blog</code> は指定可能ですが、<code>https://learn.microsoft.com/ja-jp/entra/identity/</code> のように 3 階層以上の URL は指定できません)</li><li>クエリ パラメーターを含む URL は指定できません</li></ul><p>そのため、広く情報を収集するエージェントを作成する場合は、できるだけ上位の階層 (Microsoft Learn であれば個別のページではなく <code>https://learn.microsoft.com/ja-jp</code> など) を指定してください。</p><p><img src="/blog/azure-active-directory/helpful-resources-before-contacting-support/helpful-resources-before-contacting-support1.png"></p><p>詳細は <a href="https://learn.microsoft.com/ja-jp/microsoft-365/copilot/extensibility/agent-builder-add-knowledge#public-websites">こちらの公開情報</a> も併せてご確認ください。</p><h3 id="idx2-2">本ブログにおけるエージェント構築時のおすすめ参照順について </h3><p>上記の通り、エージェントを作成する際にはナレッジを指定できますが、指定できる数や URL の階層に制限がございます。<br>実際にエージェントを作成いただく際、どの URL を優先してナレッジに指定すべきか判断に迷う場合には、下記の推奨参照順をご利用ください。</p><p><strong>Agent 構築時の推奨参照順</strong></p><ol><li>Microsoft Learn（製品ドキュメント・Troubleshooting）</li><li>日本語 Support Blog</li><li>Product Blog</li><li>MSRC &#x2F; Security Update Guide</li></ol><p>Microsoft Community Hub は、広くトラブルシュートや特定のエラーコードなどに関する参考情報を必要とする場合に上記と入れ替えて登録することをご検討ください。</p><p>Agent の回答品質を重視する場合は、Microsoft Learn を優先してナレッジに登録します。 Microsoft Learn はサービスの正式な公開情報となりますので、動作やトラブルシューティングに際し、公式な情報としてご確認いただけます。</p><p>公開情報に反映されていない新機能の情報や、日本語でよくお問い合わせいただく内容につきましては、別途ブログで案内していることもございます。<br>公開情報以外の補足情報も含んだ形でエージェントを利用されたい場合には、併せて日本語のサポート ブログや製品ブログの URL もナレッジに登録することで、より幅広い情報を取得することができます。お客様の要望や用途に合わせ、必要に応じて登録いただき、補完情報として活用いただけましたら幸いです。</p><h3 id="idx2-3">AI を活用いただく際のご注意</h3><ul><li>AI の回答には誤りや古い情報が含まれる可能性があります。操作や設定変更を行う前に、回答の根拠となっている公開情報をご確認ください。</li><li>エージェントやチャットに入力する情報 (テナント ID、ユーザー名、ログなど) の取り扱いについては、お客様の組織のポリシーに従ってください。</li></ul>]]>
+      <![CDATA[<p>こんにちは、Microsoft Entra ID サポート チームの小出です。</p><p>今回は、弊社サポートにお問い合わせを起票いただく前にご利用いただける、公開情報やブログ情報などを紹介いたします。</p><h2 id="はじめに"><a href="#はじめに" class="headerlink" title="はじめに"></a>はじめに</h2><p>いつも多くのお問い合わせを弊社サポートにお寄せいただき誠にありがとうございます。</p><p>サポートをご利用いただくなかで、下記のような経験をお持ちのお客様もいらっしゃるかと思います。</p><ul><li>お問い合わせを起票し、回答を待っている間に AI に聞いてみたら自己解決できた</li><li>サポートからの回答を確認したら、サポート ブログで既に公開されている情報だった</li><li>発生したエラーについて検索してみたところ、同じような事象と対処策についての情報が出てきたが参考にしてよいのかわからない</li><li>似たような事象がコミュニティ サイトにあったが、英語なのでわかりにくい</li></ul><p>弊社サポートにおきましても、可能な限り迅速にお客様への連絡や回答をご案内できるよう努めておりますが、お客様がよりスムーズに問題を解決できるよう、お問い合わせを起票いただく前にお客様側にて利用いただける情報についておまとめいたしました。</p><p>また、Microsoft 365 Copilot をはじめ、AI を活用いただいているお客様や、今後利用したいと考えているお客様向けに、AI エージェントでの活用方法についても後半でご案内しております。<br>下記でご紹介する公開情報やブログなどを “エージェント” のナレッジとして活用いただくことで、エージェントへの質問を通じて一次回答や情報採取の手順を確認でき、お客様ご自身でスムーズに問題や疑問点を解決いただけます。</p><p>具体的なエージェントのプロンプトにつきましては、お客様環境によって設定や指示が異なる点もございますため本記事では割愛いたしますが、応答のソースとなるサイトの指定方法などを後半でご案内しておりますので、生成 AI を活用いただくうえでも参考になりましたら幸いです。</p><p>なお、本記事では Microsoft Entra ID に限らず、セキュリティ関連製品についても記載しております。Microsoft Intune や Microsoft Defender をはじめとするセキュリティ製品をご利用のお客様も、ぜひご利用ください。</p><span id="more"></span><h2 id="目次"><a href="#目次" class="headerlink" title="目次"></a>目次</h2><ol><li><p><a href="#idx1">各製品ごとの推奨公開情報の紹介</a></p><ul><li><a href="#idx1-1">Microsoft Entra ID</a></li><li><a href="#idx1-2">Microsoft Intune</a></li><li><a href="#idx1-3">Microsoft Configuration Manager(MCM&#x2F;旧SCCM)</a></li><li><a href="#idx1-4">Security (Microsoft Defender &#x2F; Microsoft Sentinel &#x2F; Security platform)</a></li><li><a href="#idx1-5">Compliance (Microsoft Purview)</a></li></ul></li><li><p><a href="#idx2">エージェントでの活用方法について</a></p><ul><li><a href="#idx2-1">エージェントにおけるナレッジの指定方法について</a></li><li><a href="#idx2-2">本ブログにおけるエージェント構築時のおすすめ参照順について</a></li><li><a href="#idx2-3">AI を活用いただく際のご注意</a></li></ul></li></ol><h2 id="idx1">各製品ごとの推奨公開情報の紹介</h2><p>弊社におけるセキュリティ関連製品には、主に 5 種類のカテゴリがございます。トラブルシューティングや製品の情報を確認したいときにご利用いただける推奨情報を、製品ごとにご案内します。</p><p>公開情報 (Microsoft Learn など) は製品の公式な情報です。日本語の技術情報ブログは、公開情報を補足する内容 (よくあるお問い合わせや、公開情報だけでは分かりにくい内容など) を、サポート チームが日本語でご案内するものです。ブログの内容は公開時点の情報となり、最新の公開情報と異なる場合がありますので、最新情報については公開情報もあわせてご確認ください。</p><h3 id="idx1-1">Microsoft Entra ID</h3><p>Microsoft Entra ID は、ユーザー、デバイス、アプリ、リソースに対する認証、ポリシーの適用、保護を提供するクラウドベースの ID およびアクセス管理サービスです。動作の詳細や手順などをご案内しているドキュメントのほか、トラブル シューティング用のガイドもございます。公開情報で網羅できていないトラブル シューティングやよくある質問は、日本語の技術情報としてブログでもご案内しておりますので、日本語の技術情報ブログも公開情報を補足する情報としてご活用いただけます。</p><table><thead><tr><th>サイト</th><th>用途</th><th>日本語利用可否</th></tr></thead><tbody><tr><td><a href="https://learn.microsoft.com/ja-jp/entra/identity/">Microsoft Entra ID Documentation</a></td><td>製品ドキュメント、設計情報</td><td>○</td></tr><tr><td><a href="https://learn.microsoft.com/ja-jp/troubleshoot/entra/welcome-entra">Troubleshoot Microsoft Entra Issues</a></td><td>トラブルシューティング</td><td>○</td></tr><tr><td><a href="https://learn.microsoft.com/ja-jp/entra/fundamentals/whats-new">Microsoft Entra Releases &amp; Announcements</a></td><td>新機能、仕様変更情報</td><td>○</td></tr><tr><td><a href="https://learn.microsoft.com/ja-jp/entra/fundamentals/whats-new-archive">Release Archive</a></td><td>過去のリリース履歴</td><td>○</td></tr><tr><td><a href="https://jpazureid.github.io/blog/">Japan Azure Identity Support Blog</a></td><td>日本語の技術情報、サポート事例</td><td>○（日本語のみ）</td></tr><tr><td><a href="https://www.microsoft.com/en-us/security/blog/">Microsoft Security Blog</a></td><td>セキュリティ関連アップデート</td><td>×（英語のみ）</td></tr></tbody></table><h3 id="idx1-2">Microsoft Intune</h3><p>Microsoft Intune は、組織で利用するデバイスやアプリケーションをクラウド上で管理し、組織のデータ保護やセキュリティ対策を支援する製品です。機能の詳細や設定手順、トラブル シューティングをご案内する公開ドキュメントのほか、よくある質問や公開情報を補足する内容を日本語の技術情報ブログでもご案内しておりますので、併せてご利用いただけます。</p><table><thead><tr><th>サイト</th><th>用途</th><th>日本語利用可否</th></tr></thead><tbody><tr><td><a href="https://learn.microsoft.com/ja-jp/intune/">Microsoft Intune Documentation</a></td><td>Intune の新機能、導入方法、トラブル シューティング全般</td><td>○</td></tr><tr><td><a href="https://techcommunity.microsoft.com/category/microsoftintune/blog/microsoftintuneblog">Microsoft Intune Blog | Microsoft Community Hub</a></td><td>最新のアップデート、新機能、既知の問題などの Intune ブログ</td><td>×（英語のみ）</td></tr><tr><td><a href="https://jpintune.github.io/blog/">Japan Microsoft Intune Support Team Blog</a></td><td>日本のお客様向けの技術情報やサポート事例</td><td>○（日本語のみ）</td></tr></tbody></table><h3 id="idx1-3">Microsoft Configuration Manager (MCM / 旧 SCCM)</h3><p>Microsoft Configuration Manager (旧称 SCCM) は、組織内のデバイスやアプリケーションを管理するための製品です。アプリケーションや更新プログラムの展開、デバイスの構成管理など、企業内のさまざまなデバイスを効率よく管理・運用するための幅広い機能を提供しています。</p><p>各機能の動作やトラブル シューティングについては Microsoft Learn の公開ドキュメントをご利用いただけます。また、よくあるお問い合わせや公開情報を補足する内容を日本語の技術情報ブログでもご案内しておりますので、併せてご利用いただけます。</p><table><thead><tr><th>サイト</th><th>用途</th><th>日本語利用可否</th></tr></thead><tbody><tr><td><a href="https://learn.microsoft.com/ja-jp/troubleshoot/mem/configmgr/welcome-configuration-manager">Configuration Manager Troubleshooting (Microsoft Learn)</a></td><td>トラブルシューティング、障害対応</td><td>○</td></tr><tr><td><a href="https://jpmem.github.io/blog/categories/Configuration-Manager/">Japan Configuration Manager Support Blog</a></td><td>日本語の技術情報、サポート事例</td><td>○（日本語のみ）</td></tr></tbody></table><h3 id="idx1-4">Security (Microsoft Defender / Microsoft Sentinel / Security platform)</h3><p><strong>Defender &#x2F; Security Platform</strong></p><p>Microsoft Defender は、エンドポイント、ID、電子メール、クラウドアプリケーションなどに対する脅威の検出、防止、調査、対応を担う機能です。<br>動作の詳細や手順などをご案内しておりますドキュメントのほか、トラブル シューティング用のガイドもございます。公開情報で網羅できていないトラブル シューティングやよくある質問を、日本語の技術情報としてブログでもご案内いたしておりますので、日本語の技術情報ブログも、公開情報と同様にご利用いただけます。<br>さまざまな領域から得られるセキュリティ情報を集約し、脅威の検出、調査、対応を行うための基盤として Security Platform のひとつと呼ばれる事もあります。<br>Microsoft Defender ポータルを中心とした各機能の設定や連携、インシデントやアラートの管理などについて、公開ドキュメントや技術情報をご案内しています。</p><p><strong>Microsoft Sentinel</strong></p><p>Microsoft Sentinel は、さまざまな製品やサービスからセキュリティに関するログやデータを収集し、脅威の検出、調査、対応を行うためのサービスです。<br>データの収集や分析、インシデントの調査、分析ルールや自動化など、各機能の利用方法やトラブルシューティングについて公開ドキュメントをご用意しています。また、公開情報だけでは分かりにくい内容や、よくあるお問い合わせについては、日本語の技術情報ブログでもご案内しています。</p><table><thead><tr><th>サイト</th><th>用途</th><th>日本語利用可否</th></tr></thead><tbody><tr><td><a href="https://jp-sec.github.io/blog/">Security 日本語 Blog</a></td><td>日本語の技術情報、サポート情報</td><td>○（日本語のみ）</td></tr><tr><td><a href="https://techcommunity.microsoft.com/">Microsoft Community Hub</a></td><td>技術コミュニティ、ナレッジ共有</td><td>×（英語のみ）</td></tr><tr><td><a href="https://techcommunity.microsoft.com/category/microsoft-security-product/blog/microsoft-security-blog">Microsoft Security Community Blog</a></td><td>Security 製品全般の技術情報</td><td>×（英語のみ）</td></tr><tr><td><a href="https://techcommunity.microsoft.com/category/microsoft-sentinel/blog/microsoftsentinelblog">Microsoft Sentinel Blog</a></td><td>Sentinel 関連情報</td><td>×（英語のみ）</td></tr><tr><td><a href="https://www.microsoft.com/en-us/msrc">Microsoft Security Response Center (MSRC)</a></td><td>セキュリティ情報、アドバイザリ</td><td>×（英語のみ）</td></tr><tr><td><a href="https://msrc.microsoft.com/update-guide/">Security Update Guide</a></td><td>CVE、脆弱性情報</td><td>×（英語のみ）</td></tr><tr><td><a href="https://www.microsoft.com/en-us/wdsi/">Antimalware and cybersecurity portal - Microsoft Security Intelligence</a></td><td>脅威インテリジェンス</td><td>×（英語のみ）</td></tr></tbody></table><h3 id="idx1-5">Compliance (Microsoft Purview)</h3><p>Microsoft Purview は、組織内のデータを適切に管理・保護し、情報漏えいの防止やコンプライアンス対応を支援する製品です。機能の詳細や設定手順、トラブル シューティングをご案内する公開ドキュメントのほか、新機能や製品の更新情報、運用に役立つ情報を公式ブログでもご案内しておりますので、併せてご利用いただけます。</p><table><thead><tr><th>サイト</th><th>用途</th><th>日本語利用可否</th></tr></thead><tbody><tr><td><a href="https://learn.microsoft.com/ja-jp/purview/whats-new">Microsoft Purview の最新情報</a></td><td>Purview各機能の新機能・変更点の公式まとめ</td><td>○</td></tr><tr><td><a href="https://techcommunity.microsoft.com/category/microsoft-security/blog/microsoft-purview-blog">Microsoft Purview Blog</a></td><td>Purview全般の新機能・運用ノウハウを発信する公式ブログ</td><td>×（英語のみ）</td></tr></tbody></table><h2 id="idx2">エージェントでの活用方法について</h2><p>お問い合わせを起票いただく前にお客様側でご利用いただける公開情報やブログなどを上記でご案内しましたが、ひとつずつ確認いただくには時間も手間もかかり、ほしい情報を見つけ出すのが難しいこともあるかと思います。</p><p>Copilot のチャット機能などをすでに利用いただいているお客様も多いかと思いますが、たとえばエージェントを活用すると、指定したナレッジをもとに応答が生成されるため、効率よく情報にたどり着くことを期待できます。</p><h3 id="idx2-1">エージェントにおけるナレッジの指定方法について</h3><p>最も簡単にエージェントを作成できる方法は、Microsoft 365 Copilot 内にあるエージェント ビルダーを利用する方法です (利用には Microsoft 365 Copilot のライセンスが必要です)。</p><p>エージェントにどのようにふるまってほしいかという「指示」の具体的な書き方がわからなくても、どのようなエージェントを作成したいかをチャットに入力すれば、指示も自動的に生成してくれます。また、プレビューの機能もあり、どのように動作するかを事前に試すこともできます。<a href="https://learn.microsoft.com/ja-jp/microsoft-365/copilot/extensibility/agent-builder-build-agents">こちらの公開情報</a>から詳細をご確認いただけます。</p><p>エージェントを作成するときには、エージェントがどのような情報を探して応答するかの「指示」のほかに、どこから情報を取得するかを指定する「ナレッジ」の項目があります。この項目で、応答のソースとしたい Web サイトやファイルを指定することで、指定されたナレッジから情報を取得できます。</p><p>具体的には、Web サイトを指定したい場合、Web 検索の項目をオンにしたうえで URL を指定します。<br>下記の通り、指定できる Web サイトの URL には次の制限があります。</p><ul><li>追加できる URL は <strong>最大 4 つ</strong> まで</li><li>URL のレベルは <strong>2 階層まで</strong> (例: <code>https://learn.microsoft.com/ja-jp</code> や <code>https://jpazureid.github.io/blog</code> は指定可能ですが、<code>https://learn.microsoft.com/ja-jp/entra/identity/</code> のように 3 階層以上の URL は指定できません)</li><li>クエリ パラメーターを含む URL は指定できません</li></ul><p>そのため、広く情報を収集するエージェントを作成する場合は、できるだけ上位の階層 (Microsoft Learn であれば個別のページではなく <code>https://learn.microsoft.com/ja-jp</code> など) を指定してください。</p><p><img src="/blog/azure-active-directory/helpful-resources-before-contacting-support/helpful-resources-before-contacting-support1.png"></p><p>詳細は <a href="https://learn.microsoft.com/ja-jp/microsoft-365/copilot/extensibility/agent-builder-add-knowledge#public-websites">こちらの公開情報</a> も併せてご確認ください。</p><h3 id="idx2-2">本ブログにおけるエージェント構築時のおすすめ参照順について </h3><p>上記の通り、エージェントを作成する際にはナレッジを指定できますが、指定できる数や URL の階層に制限がございます。<br>実際にエージェントを作成いただく際、どの URL を優先してナレッジに指定すべきか判断に迷う場合には、下記の推奨参照順をご利用ください。</p><p><strong>Agent 構築時の推奨参照順</strong></p><ol><li>Microsoft Learn（製品ドキュメント・Troubleshooting）</li><li>日本語 Support Blog</li><li>Product Blog</li><li>MSRC &#x2F; Security Update Guide</li></ol><p>Microsoft Community Hub は、広くトラブルシュートや特定のエラーコードなどに関する参考情報を必要とする場合に上記と入れ替えて登録することをご検討ください。</p><p>Agent の回答品質を重視する場合は、Microsoft Learn を優先してナレッジに登録します。 Microsoft Learn はサービスの正式な公開情報となりますので、動作やトラブルシューティングに際し、公式な情報としてご確認いただけます。</p><p>公開情報に反映されていない新機能の情報や、日本語でよくお問い合わせいただく内容につきましては、別途ブログで案内していることもございます。<br>公開情報以外の補足情報も含んだ形でエージェントを利用されたい場合には、併せて日本語のサポート ブログや製品ブログの URL もナレッジに登録することで、より幅広い情報を取得することができます。お客様の要望や用途に合わせ、必要に応じて登録いただき、補完情報として活用いただけましたら幸いです。</p><h3 id="idx2-3">AI を活用いただく際のご注意</h3><ul><li>AI の回答には誤りや古い情報が含まれる可能性があります。操作や設定変更を行う前に、回答の根拠となっている公開情報をご確認ください。</li><li>エージェントやチャットに入力する情報 (テナント ID、ユーザー名、ログなど) の取り扱いについては、お客様の組織のポリシーに従ってください。</li></ul>]]>
     </content>
     <id>https://jpazureid.github.io/blog/azure-active-directory/helpful-resources-before-contacting-support/</id>
     <link href="https://jpazureid.github.io/blog/azure-active-directory/helpful-resources-before-contacting-support/"/>
@@ -39,7 +39,7 @@
 <p>なお、本記事では Microsoft Entra ID に限らず、セキュリティ関連製品についても記載しております。Microsoft Intune や Microsoft Defender をはじめとするセキュリティ製品をご利用のお客様も、ぜひご利用ください。</p>]]>
     </summary>
     <title>よりスムーズな問題解決のために - お問い合わせ前に役立つ公開情報</title>
-    <updated>2026-11-09T14:39:49.063Z</updated>
+    <updated>2026-11-19T01:20:19.302Z</updated>
   </entry>
   <entry>
     <author>
@@ -57,7 +57,7 @@
 <p>公開情報「Microsoft Entra のリリースとお知らせ」および MC1263280 にて、セキュリティ強化のため 2026 年 7 月からMicrosoft Entra Conn]]>
     </summary>
     <title>Microsoft Entra Connect のハードマッチの動作変更について</title>
-    <updated>2026-11-09T14:39:48.576Z</updated>
+    <updated>2026-11-19T01:20:18.874Z</updated>
   </entry>
   <entry>
     <author>
@@ -76,7 +76,7 @@
       <![CDATA[<p>こんにちは、Azure &amp; Identity サポート チームの長谷川です。<br><a href="https://learn.microsoft.com/entra/identity/authentication/concept-sms-voice-retire]]>
     </summary>
     <title>自動パスキー有効化を一時的にオプトアウトする手順</title>
-    <updated>2026-11-09T14:39:49.597Z</updated>
+    <updated>2026-11-19T01:20:19.793Z</updated>
   </entry>
   <entry>
     <author>
@@ -96,7 +96,7 @@
 <p>この記事では、MFA の認証方法を SMS や音声通話からパスキーへ移行する際に、組織内のユーザーへのパスキー展開を効率的に進めるために役立つ<a href="https://learn]]>
     </summary>
     <title>登録キャンペーンを利用して認証方法にパスキー (セキュリティ キーを利用) をセットアップする手順</title>
-    <updated>2026-11-09T14:39:49.144Z</updated>
+    <updated>2026-11-19T01:20:19.373Z</updated>
   </entry>
   <entry>
     <author>
@@ -115,7 +115,7 @@
 <p>Microsoft Entra ID の認証方法にパスキーを利用する方が増え始めていると思います。パスキーは従来の電話網を利用した認証方法 (SMS や音声通話) などよりもセキュリティ]]>
     </summary>
     <title>認証方法にパスキー (セキュリティ キーを利用) をセットアップする手順</title>
-    <updated>2026-11-09T14:39:49.132Z</updated>
+    <updated>2026-11-19T01:20:19.363Z</updated>
   </entry>
   <entry>
     <author>
@@ -136,7 +136,7 @@
       <![CDATA[<p>こんにちは、Azure &amp; Identity サポート チームの 田辺 です。<br>本記事は、2026 年 7 月 13 日に米国の Microsoft Security Blog で公開された <a href="https://www.microsoft.com/en-us/security/blog/2026/07/13/microsoft-entra-id-security-updates-passkeys-are-the-default-authentication-method-in-entra-id/">Microsoft Entra ID security updates: Passkeys are the default authentication method in Entra ID</a> を意訳したものになります。ご不明点はサポート チームまでお問い合わせください。</p>]]>
     </summary>
     <title>MFA の既定の認証方法がパスキーに移行 (SMS / 音声通話の既定での提供が終了)</title>
-    <updated>2026-11-09T14:39:49.599Z</updated>
+    <updated>2026-11-19T01:20:19.794Z</updated>
   </entry>
   <entry>
     <author>
@@ -154,7 +154,7 @@
 <p>Entra ID テナントやユーザーなどのオブジェクトを管理する方法には、各管理センター (Microsoft Entra 管理センターなど) の画面上で操作する以外にも、Microso]]>
     </summary>
     <title>Graph Explorer の使用法</title>
-    <updated>2026-11-09T14:39:49.155Z</updated>
+    <updated>2026-11-19T01:20:19.383Z</updated>
   </entry>
   <entry>
     <author>
@@ -173,7 +173,7 @@
       <![CDATA[<div class="alert is-info"><p class="alert-title">Note</p><p>本記事は 2021 年 2 月に公開した内容を、2026 年 6 月時点の最新情報に基づきリニューアルしたものです。リニューアル前の記事は <a href="]]>
     </summary>
     <title>[2026 年度版] 条件付きアクセスで 「準拠済み」 でブロックされる場合の対処法 (iOS / Android 編)</title>
-    <updated>2026-11-09T14:39:48.943Z</updated>
+    <updated>2026-11-19T01:20:19.197Z</updated>
   </entry>
   <entry>
     <author>
@@ -193,7 +193,7 @@
       <![CDATA[<p>こんにちは、Azure &amp; Identity サポート チームの長谷川です。<br>本記事は、2026 年 5 月 7 日に米国の Microsoft Security Blog で公開された <a href="https://www.microsoft.com/en-us/security/blog/2026/05/07/world-passkey-day-advancing-passwordless-authentication/">World Passkey Day: Advancing passwordless authentication</a> を意訳したものになります。ご不明点はサポート チームまでお問い合わせください。</p>]]>
     </summary>
     <title>パスキーを利用したパスワードレスの導入を検討しよう</title>
-    <updated>2026-11-09T14:39:49.860Z</updated>
+    <updated>2026-11-19T01:20:20.021Z</updated>
   </entry>
   <entry>
     <author>
@@ -213,7 +213,7 @@
       <![CDATA[<p>こんにちは、Azure Identity サポート チームの 夏木 です。Microsoft Entra サポート チームより、最近 Entra の利用を始めたお客様を対象に、初学者向けのブログ シリーズを作成しております。本記事はその Entra ID 初学者向けシリーズ]]>
     </summary>
     <title>Entra ID 初学者向けシリーズ第 5 弾 - Microsoft Entra Private Access 入門</title>
-    <updated>2026-11-09T14:39:49.760Z</updated>
+    <updated>2026-11-19T01:20:19.935Z</updated>
   </entry>
   <entry>
     <author>
@@ -231,7 +231,7 @@
       <![CDATA[<div class="alert is-info"><p class="alert-title">Note</p><p>2026 年 5 月 7 日更新: カスタム アプリケーション作成時の [サポートされているアカウントの種類] を更新しました</p><p>2026 年 5]]>
     </summary>
     <title>条件付きアクセス ポリシーの「ベースライン スコープ」に関する動作変更の解説</title>
-    <updated>2026-11-09T14:39:48.886Z</updated>
+    <updated>2026-11-19T01:20:19.147Z</updated>
   </entry>
   <entry>
     <author>
@@ -250,7 +250,7 @@
 <p>こんにちは、Azure]]>
     </summary>
     <title>Apple デバイスでキーチェーンから Secure Enclave 利用へ</title>
-    <updated>2026-11-09T14:39:48.713Z</updated>
+    <updated>2026-11-19T01:20:18.995Z</updated>
   </entry>
   <entry>
     <author>
@@ -269,7 +269,7 @@
       <![CDATA[<h2 id="はじめに"><a href="#はじめに" class="headerlink" title="はじめに"></a>はじめに</h2><p>こんにちは、Azure Identity サポート チーム Lynn です。<br>条件付きアクセス ポリシーに対して変更を]]>
     </summary>
     <title>条件付きアクセス ポリシー更新時に「Update policy」の監査ログが分割されて記録される挙動について</title>
-    <updated>2026-11-09T14:39:49.255Z</updated>
+    <updated>2026-11-19T01:20:19.487Z</updated>
   </entry>
   <entry>
     <author>
@@ -288,7 +288,7 @@
       <![CDATA[<p>こんにちは、Azure &amp; Identity サポート チームの長谷川です。本記事は、2026 年 1 月 28 日に米国の Microsoft Entra Blog で公開された <a href="https://techcommunity.microsoft.c]]>
     </summary>
     <title>今後の条件付きアクセスの変更 リソース除外を含むポリシーの適用強化</title>
-    <updated>2026-11-09T14:39:49.812Z</updated>
+    <updated>2026-11-19T01:20:19.981Z</updated>
   </entry>
   <entry>
     <author>
@@ -307,7 +307,7 @@
 <h2 id="説明"><a href="#説明" class="h]]>
     </summary>
     <title>certutil -deletehellocontainer コマンド実行時の注意点</title>
-    <updated>2026-11-09T14:39:48.901Z</updated>
+    <updated>2026-11-19T01:20:19.159Z</updated>
   </entry>
   <entry>
     <author>
@@ -327,7 +327,7 @@
 <p>Windows LAPS の]]>
     </summary>
     <title>ローカル管理者パスワードがバックアップされているデバイスを一覧で取得する</title>
-    <updated>2026-11-09T14:39:49.051Z</updated>
+    <updated>2026-11-19T01:20:19.292Z</updated>
   </entry>
   <entry>
     <author>
@@ -346,7 +346,7 @@
       <![CDATA[<div class="alert is-info"><p class="alert-title">Note</p><p>本記事は 2025 年 5 月に公開した <a href="/blog/azure-active-directory/WorkPlaceJoin2/">このデ]]>
     </summary>
     <title>このデバイスのすべてのアプリ、Web サイト、サービスにサインインしますか?</title>
-    <updated>2026-11-09T14:39:48.726Z</updated>
+    <updated>2026-11-19T01:20:19.005Z</updated>
   </entry>
   <entry>
     <author>
@@ -364,7 +364,7 @@
 <p>2025 年 12 月 9 日 に Microsoft 365 管理センターのメッセージ センターで MC1193408 の通知が行われ、2026 年 1 月 7 日より、Micro]]>
     </summary>
     <title>MC1193408 - 要対応: 2026 年 1 月 7 日までに DigiCert Global Root G2 証明機関を信頼してください</title>
-    <updated>2026-11-09T14:39:49.263Z</updated>
+    <updated>2026-11-19T01:20:19.493Z</updated>
   </entry>
   <entry>
     <author>
@@ -383,7 +383,7 @@
 <p>本記事は、2025 年 11 月 11 日に米国の Microsoft Entra (Azure AD) Blog で公開された <a href="https://techcommu]]>
     </summary>
     <title>AI の大波に乗る: エージェント時代に向けた Microsoft Entra の進化</title>
-    <updated>2026-11-09T14:39:49.659Z</updated>
+    <updated>2026-11-19T01:20:19.845Z</updated>
   </entry>
   <entry>
     <author>
@@ -402,6 +402,6 @@
 <p>本記事は、2025 年 11 月 5 日に米国の Microsoft Entra (Azure AD) Blog で公開された <a href="https://techcommunity]]>
     </summary>
     <title>クラウド ファーストの ID 管理 - ユーザー SOA がパブリック プレビューかつグループ SOA も一般公開に</title>
-    <updated>2026-11-09T14:39:48.573Z</updated>
+    <updated>2026-11-19T01:20:18.871Z</updated>
   </entry>
 </feed>
